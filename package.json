@@ -1,0 +1,22 @@
+{
+  "name": "yom",
+  "version": "0.0.1",
+  "description": "Scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild src/index.ts --bundle --outfile=dist/bundle.js --platform=node --sourcemap",
+    "start": "node dist/bundle.js"
+  },
+  "author": "minamorl",
+  "license": "MIT",
+  "dependencies": {
+    "cmd-ts": "^0.13.0",
+    "esbuild": "^0.20.2",
+    "puppeteer": "^22.6.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

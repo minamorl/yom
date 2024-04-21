@@ -1,0 +1,11 @@
+node_modules/
+echo ##active_line2##
+build/
+echo ##active_line3##
+dist/
+echo ##active_line4##
+*.log
+echo ##active_line5##
+*.tsbuildinfo
+echo ##active_line6##
+.env
